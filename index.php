@@ -4,22 +4,14 @@
     <meta charset="utf-8">
     <title>ClubAngeles</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagenes/favicon.png">
 </head>
 
 <body>
-    <header class="cabecera">
-        <div class="cab_nav">
-            <img src="imagenes/logo.png" alt="Favicon" class="logo_img">
-            <h2 class="nomb_logo">Club Deportivo Ángeles</h2>
-            <ul>
-              <li><a href=""></a>Inicio</li>
-              <li><a href=""></a>Información</li>
-              <li><a href=""></a>Entrar</li>  
-            </ul>
-        </div>
-    </header>
+    <?php require_once 'header.html'?>
+    <!--          Contenedor central                 -->
     <div class="contenedor">
-       <h2 class="titulo_contenedor">Bienvenido</h2> 
+    <img src="imagenes/logoAngeles.png" alt="Ángeles" class="logo_angeles"> 
        <p class="parrafo_cont"><span >
 
         En nuestra comunidad, no solo compartimos una pasión por el baloncesto, sino que también nos unimos bajo la inspiradora ala de los Ángeles. En este espacio dedicado al deporte, la camaradería y el espíritu competitivo, te damos la bienvenida con los brazos abiertos.<br>
