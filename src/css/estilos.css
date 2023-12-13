@@ -1,0 +1,112 @@
+*{                          /*'*'Indica que se aplicará el estilo a toda la pagina*/
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*header{
+    width: 100%;
+    height: 80px;                                  Se aplica mejor este background directamente en el .cab_nav
+    background-color: rgba(0, 123, 255, 0.7);
+}*/
+  
+.cab_nav{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 123, 255, 0.7);
+   width: 100%;
+   padding: 20px;
+   text-align: right; 
+   position: fixed;
+   top: 0px;
+}
+
+.cab_nav ul li{                /*estilo para las listas*/
+   list-style: none;            /*quitar biñetas*/
+   display: inline-block;
+   padding: 10px 50px;
+   color: white;
+   font-size: 20px;
+   font-family: sans-serif;
+   cursor: pointer;             /*colocar la mano al pasar el mouse*/
+}
+
+.cab_nav ul li a{
+    text-decoration: none;      /*eliminar estilos de letra en este caso la linea de abajo del texto*/
+
+    color: white;
+}
+
+.nomb_logo{
+    width: 330px;
+    padding: 0px 0px;
+    float: left;
+    position: relative;
+    top: 5%;
+    left: 3.5%;
+    color: #fff;
+    font-size: 30px;
+}
+
+.logo_img{
+    width: 30px;
+    position: absolute;
+    transform: translateX(-1825px) translateY(3px);
+}
+
+.contenedor{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-10%);
+    padding: 25px 10px;
+    border: 5px solid rgba(128, 0, 128, 1);
+    background-color: rgb(255, 255, 255, 0.8);
+    border-radius: 40px;
+}
+
+.video{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: -1;        /*Para que este por debajo de toda la ppagina*/
+}
+
+.logo_angeles{
+    width: 40%;
+    position:relative;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-30%);
+}
+
+.parrafo_cont{
+    font-size: 20px;
+    text-align: justify;
+    position:relative;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-30%);
+}
+
+.foot{
+    background-color: rgba(0, 123, 255, 0.9);
+    margin-top: 41%;
+    width: 100%;
+    padding: 20px 0px;
+    position: relative;
+
+}
+
+.foot_p{
+    color: white;
+    text-align: center;
+}
+
+.marca{
+    background-color: rgba(255, 115, 0, 0.9);
+    border-radius: 40px;
+}
