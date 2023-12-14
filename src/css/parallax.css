@@ -21,7 +21,7 @@
 }
 
 .seccion_f{
-    max-width: 110px;
+    max-width: 1100px;
     width: 90%;
     overflow: hidden;
     margin: auto;
@@ -30,7 +30,7 @@
 }
 
 .seccion{
-    background: url('../img/ssss.jpg');
+    background: url('../img/equipo.jpg');
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -40,3 +40,48 @@
     justify-content: center;
     align-items: center;
 }
+
+.seccion h2, .seccion_1 h2, .seccion_2 h2{
+    font-size: 60px;
+    text-align: center;
+    padding: 400px 0px;
+    color: #fff;
+}
+
+.titulos{
+    font-size: 35px;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.parrafos{
+    font-size: 20px;
+    padding: 20px;
+    text-align: justify;
+}
+
+/*Replicas*/
+.seccion_1{
+    background: url('../img/balonmano.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion_2{
+    background: url('../img/niño.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+

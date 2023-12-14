@@ -55,7 +55,7 @@
 }
 
 .contenedor{
-    position: absolute;
+    position: relative;
     top: 30%;
     left: 50%;
     transform: translateX(-50%) translateY(-10%);
@@ -94,16 +94,17 @@
 
 .foot{
     background-color: rgba(0, 123, 255, 0.9);
-    margin-top: 41%;
     width: 100%;
     padding: 20px 0px;
     position: relative;
+    bottom: 0; 
 
 }
 
 .foot_p{
     color: white;
     text-align: center;
+    
 }
 
 .marca{

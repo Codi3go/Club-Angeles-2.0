@@ -21,6 +21,22 @@
             <h2>Diseño</h2>
         </section>
 
+        <section class="seccion_f">
+            <h1 class="titulos">Ejemplo 2</h1>
+            <p class="parrafos">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut assumenda cumque aspernatur repellat quibusdam doloribus est ullam veniam, quos ex obcaecati quas atque nulla consequatur non aliquam adipisci voluptates? Dolore! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, sed quidem. Laborum cupiditate et ipsa officiis alias? Ex repudiandae rem, provident asperiores quidem maiores suscipit, excepturi sit ea, quaerat ipsum!</p>
+        </section>
+        <section class="seccion_1">
+            <h2>Web</h2>
+        </section>
+
+        <section class="seccion_f">
+            <h1 class="titulos">Ejemplo 3</h1>
+            <p class="parrafos">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut assumenda cumque aspernatur repellat quibusdam doloribus est ullam veniam, quos ex obcaecati quas atque nulla consequatur non aliquam adipisci voluptates? Dolore! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, sed quidem. Laborum cupiditate et ipsa officiis alias? Ex repudiandae rem, provident asperiores quidem maiores suscipit, excepturi sit ea, quaerat ipsum!</p>
+        </section>
+        <section class="seccion_2">
+            <h2>Juan Diego</h2>
+        </section>
+
         <?php require_once './footer/footer.html'?>
 
     </body>
