@@ -55,7 +55,7 @@
 }
 
 .contenedor{
-    position: relative;
+    position: absolute;
     top: 30%;
     left: 50%;
     transform: translateX(-50%) translateY(-10%);
@@ -96,7 +96,7 @@
     background-color: rgba(0, 123, 255, 0.9);
     width: 100%;
     padding: 20px 0px;
-    position: relative;
+    position:absolute;
     bottom: 0; 
 
 }
