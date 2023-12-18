@@ -15,7 +15,7 @@
             <ul>
               <li class="marca"><a href="./index.php">Inicio</a></li>
               <li class=><a href="./informacion.html">Información</a></li>
-              <li class=><a href=""></a>Entrar</li>  
+              <li class=><a href="./acceder.php"></a>Entrar</li>  
             </ul>
         </div>
     </header>
